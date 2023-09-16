@@ -4,10 +4,10 @@ const Notfound = () => {
   const k = "";
   return (
     <div
-      className="d-flex flex-row justify-content-center align-items-center"
-      style={{ color: "white", backgroundColor: "black" }}
+      className="d-flex flex-column justify-content-center align-items-center"
+      style={{ color: "white", backgroundColor: "black", height: "100vh" }}
     >
-      <h1>Notfound</h1>
+      <h3>Go to Login Page to view Site</h3>
       <p>UserName:rahul</p>
       <p>Password:rahul@2021</p>
       <Link to="/">
