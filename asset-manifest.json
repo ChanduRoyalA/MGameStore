@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/StoreGame/static/css/main.54044024.css",
-    "main.js": "/StoreGame/static/js/main.5b07eede.js",
+    "main.js": "/StoreGame/static/js/main.f73802f1.js",
     "static/js/787.b80b727d.chunk.js": "/StoreGame/static/js/787.b80b727d.chunk.js",
     "index.html": "/StoreGame/index.html",
     "main.54044024.css.map": "/StoreGame/static/css/main.54044024.css.map",
-    "main.5b07eede.js.map": "/StoreGame/static/js/main.5b07eede.js.map",
+    "main.f73802f1.js.map": "/StoreGame/static/js/main.f73802f1.js.map",
     "787.b80b727d.chunk.js.map": "/StoreGame/static/js/787.b80b727d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54044024.css",
-    "static/js/main.5b07eede.js"
+    "static/js/main.f73802f1.js"
   ]
 }
