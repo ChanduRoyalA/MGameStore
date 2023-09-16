@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.IndividualstoresDiv a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  border: 1px solid transparent;
+  padding: 5px;
+}
+.GameDetailsTextDiv a {
+  text-decoration: none;
+  font-style: italic;
+  color: white;
+}
+.IndividualstoresDiv a:hover {
+  border: 1px solid white;
+}

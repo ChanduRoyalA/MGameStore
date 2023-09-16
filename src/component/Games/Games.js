@@ -1,5 +1,4 @@
 import { Component } from "react";
-import "./Games.css";
 import Header from "../Header/Header";
 import GamesCard from "../GamesCard/GamesCard";
 import { BallTriangle } from "react-loader-spinner";
@@ -26,7 +25,10 @@ class Games extends Component {
     switch (pageStatus) {
       case "Loading":
         return (
-          <div className="ViewDiv">
+          <div
+            className="d-flex flex-row justify-content-center align-items-center"
+            style={{ height: "100vh" }}
+          >
             <BallTriangle
               type="ThreeDots"
               color="#0b69ff"
@@ -56,7 +58,10 @@ class Games extends Component {
 
       default:
         return (
-          <div>
+          <div
+            className="d-flex flex-row justify-content-center align-items-center"
+            style={{ height: "100vh" }}
+          >
             <p>failed</p>
           </div>
         );
@@ -65,7 +70,14 @@ class Games extends Component {
 
   render() {
     return (
-      <div className="Games">
+      <div
+        style={{
+          padding: "10px 8% 40px 8%",
+          height: "auto",
+          backgroundColor: "black",
+          color: "white",
+        }}
+      >
         <Header />
         <div className="container-fluid">
           <div className="row">{this.renderView()}</div>

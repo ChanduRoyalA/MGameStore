@@ -2,7 +2,6 @@ import { Component } from "react";
 import React from "react";
 
 import Header from "../Header/Header";
-import "./GameCardDetails.css";
 import VideoComponent from "../VideoDetails/VideoDetails";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
@@ -57,7 +56,7 @@ class GameCardDetails extends Component {
             <div className="container-fluid ">
               <div className="row">
                 <div className="col-12 col-md-6 col-lg-4">
-                  <div className="imgDiv">
+                  <div style={{ height: "auto", padding: "40px 0 0 0" }}>
                     <img style={{ width: "100%" }} src={background_image} />
                     <div>
                       <VideoComponent id={id} />
@@ -65,7 +64,10 @@ class GameCardDetails extends Component {
                   </div>
                 </div>
                 <div className="col-12 col-md-6 col-lg-8">
-                  <div className="GameDetailsTextDiv">
+                  <div
+                    className="GameDetailsTextDiv"
+                    style={{ padding: "10px 20px" }}
+                  >
                     <div>
                       <div className="d-flex justify-content-between">
                         <h3>
@@ -102,10 +104,25 @@ class GameCardDetails extends Component {
                         </ul>
                       </div>
                       <div className="d-none d-lg-block">
-                        <div className="storesDiv">
+                        <div
+                          className="d-flex flex-row align-items-baseline"
+                          style={{
+                            padding: "10px",
+                            flexWrap: "wrap",
+                            gap: "10px",
+                            width: "100%",
+                          }}
+                        >
                           <p>Stores:</p>
                           {stores.map((i) => (
-                            <div className="IndividualstoresDiv">
+                            <div
+                              className="IndividualstoresDiv d-flex flex-row justify-content-center align-items-center"
+                              style={{
+                                padding: "5px",
+                                border: "1px solid transparent",
+                                width: "fit-content",
+                              }}
+                            >
                               <a
                                 target="_blank"
                                 href={`https://${i.store.domain}`}
@@ -120,10 +137,25 @@ class GameCardDetails extends Component {
                   </div>
                 </div>
                 <div className="col-12 d-lg-none">
-                  <div className="storesDiv">
+                  <div
+                    className="d-flex flex-row align-items-baseline"
+                    style={{
+                      padding: "10px",
+                      flexWrap: "wrap",
+                      gap: "10px",
+                      width: "100%",
+                    }}
+                  >
                     <p>Stores:</p>
                     {stores.map((i) => (
-                      <div className="IndividualstoresDiv">
+                      <div
+                        className="IndividualstoresDiv d-flex flex-row justify-content-center align-items-center"
+                        style={{
+                          padding: "5px",
+                          border: "1px solid transparent",
+                          width: "fit-content",
+                        }}
+                      >
                         <a target="_blank" href={`https://${i.store.domain}`}>
                           {i.store.name}
                         </a>
@@ -146,7 +178,14 @@ class GameCardDetails extends Component {
 
   render() {
     return (
-      <div className="GameCardDetails">
+      <div
+        className="GameCardDetails"
+        style={{
+          color: "white",
+          backgroundColor: "black",
+          padding: "10px 8% 60px 8%",
+        }}
+      >
         <Header />
         {this.renderView()}
       </div>
