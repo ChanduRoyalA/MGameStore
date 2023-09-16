@@ -1,0 +1,49 @@
+navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px;
+  align-items: baseline;
+  padding: 10px 30px;
+  background-color: black;
+}
+
+.subnavs button {
+  margin: 0 0 0 10px;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+}
+.subnavs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+button {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn01 {
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid black;
+}
+.btn01:hover {
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+  color: white;
+}
+
+.logoIcon {
+  font-size: 70px;
+  position: relative;
+  top: 10px;
+}

@@ -1,0 +1,47 @@
+.Home {
+  padding: 10px 8% 40px 8%;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+.section01 {
+  height: auto;
+  margin: 10px 0;
+  padding: 10px 10%;
+}
+
+.select {
+  font-size: 20px;
+}
+footer {
+  height: 100px;
+  padding: 10px 10%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btnHome {
+  margin: 20px 0;
+  width: 50%;
+  color: black;
+  background-color: white;
+  padding: 10px 0;
+}
+
+.footerIcons {
+  font-size: 30px;
+}
+
+.iconDivFooter {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 30px;
+}
+
+.textDiv {
+  width: 50%;
+}

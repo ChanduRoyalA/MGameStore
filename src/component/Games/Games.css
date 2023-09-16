@@ -1,0 +1,14 @@
+.Games {
+  padding: 10px 8% 40px 8%;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+.ViewDiv {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

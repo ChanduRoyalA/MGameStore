@@ -1,0 +1,45 @@
+.GamesCards {
+  margin: 40px 0 0 0;
+}
+.GameCardDiv {
+  height: auto;
+  background-color: whitesmoke;
+  color: black;
+  margin: 10px 0;
+}
+.GameCardDiv img {
+  width: 100%;
+}
+.GameCardTextDiv {
+  padding: 10px;
+  background-color: white;
+}
+
+.GameCardBtn {
+  background-color: transparent;
+  border: 1px solid rgb(189, 244, 189);
+  width: 60%;
+}
+.GameCardBtn:hover {
+  color: white;
+  background-color: rgb(189, 244, 189);
+}
+
+.CartBtn {
+  margin: 0 10px 0 0;
+  width: fit-content;
+  background-color: transparent;
+}
+.CardIcon {
+  font-size: 25px;
+  color: rgb(183, 247, 183);
+}
+.btndivcard {
+  margin: 10px 0 0 0;
+}
+.likeIcon {
+  color: rgb(183, 247, 183);
+}
+.imgDivGameCard {
+  overflow: hidden;
+}
