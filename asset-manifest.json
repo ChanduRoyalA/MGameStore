@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/StoreGame/static/css/main.58f7c151.css",
-    "main.js": "/StoreGame/static/js/main.5d33b0f3.js",
-    "static/js/787.b80b727d.chunk.js": "/StoreGame/static/js/787.b80b727d.chunk.js",
-    "index.html": "/StoreGame/index.html",
-    "main.58f7c151.css.map": "/StoreGame/static/css/main.58f7c151.css.map",
-    "main.5d33b0f3.js.map": "/StoreGame/static/js/main.5d33b0f3.js.map",
-    "787.b80b727d.chunk.js.map": "/StoreGame/static/js/787.b80b727d.chunk.js.map"
+    "main.css": "/MGameStore/static/css/main.58f7c151.css",
+    "main.js": "/MGameStore/static/js/main.6cb45aa9.js",
+    "static/js/787.b80b727d.chunk.js": "/MGameStore/static/js/787.b80b727d.chunk.js",
+    "index.html": "/MGameStore/index.html",
+    "main.58f7c151.css.map": "/MGameStore/static/css/main.58f7c151.css.map",
+    "main.6cb45aa9.js.map": "/MGameStore/static/js/main.6cb45aa9.js.map",
+    "787.b80b727d.chunk.js.map": "/MGameStore/static/js/787.b80b727d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58f7c151.css",
-    "static/js/main.5d33b0f3.js"
+    "static/js/main.6cb45aa9.js"
   ]
 }
